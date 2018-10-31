@@ -135,6 +135,13 @@ header {
     width: 860px; }
     #hero #hero-content #hero-content-top {
       width: 100%; }
+      #hero #hero-content #hero-content-top #hero-content-top-ani {
+        width: 582px;
+        height: 400px;
+        background-color: #2b2a2b; }
+      #hero #hero-content #hero-content-top #hero-content-top-ul {
+        width: 228px;
+        margin-left: 50px; }
 
 body {
   height: 100vh;

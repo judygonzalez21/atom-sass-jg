@@ -134,13 +134,28 @@ header {
   #hero #hero-content {
     width: 860px; }
     #hero #hero-content #hero-content-top {
-      width: 100%; }
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
       #hero #hero-content #hero-content-top #hero-content-top-ani {
         width: 582px;
+        height: 500px;
         background-color: #2b2a2b; }
       #hero #hero-content #hero-content-top #hero-content-top-ul {
         width: 228px;
         margin-left: 50px; }
+        #hero #hero-content #hero-content-top #hero-content-top-ul ul {
+          height: 350px;
+          width: 228px;
+          border: 1px solid #4e4b4d;
+          border-radius: 20px; }
+          #hero #hero-content #hero-content-top #hero-content-top-ul ul li {
+            height: 25%;
+            width: 100%;
+            border-bottom: 1px solid #4e4b4d; }
+            #hero #hero-content #hero-content-top #hero-content-top-ul ul li:last-child {
+              border-bottom: none; }
 
 body {
   height: 100vh;

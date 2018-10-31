@@ -1,7 +1,23 @@
-// ***Master SASS File***
+// *** MASTER SASS FILE ***
 
 // --- PARTIALS ---
 @import "helpers/reset";
 @import "helpers/typography";
 
+@import "components/vars";
+@import "components/placeholders";
+@import "components/header";
+@import "components/hero";
+
 // --- MASTER CONTROLS ---
+
+body{
+  height: 100vh;
+  width:  100vw;
+
+  font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 100%;
+  color: #EFEAE1;
+
+  background-color: #333233;
+}

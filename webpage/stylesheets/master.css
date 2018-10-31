@@ -153,7 +153,19 @@ header {
           #hero #hero-content #hero-content-top #hero-content-top-ul ul li {
             height: 25%;
             width: 100%;
-            border-bottom: 1px solid #4e4b4d; }
+            border-bottom: 1px solid #4e4b4d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            #hero #hero-content #hero-content-top #hero-content-top-ul ul li h1 {
+              font-size: 1.4em;
+              font-weight: 500;
+              color: #eed9b7;
+              margin-bottom: .4em; }
+            #hero #hero-content #hero-content-top #hero-content-top-ul ul li span {
+              font-size: .9em;
+              color: #eed9b788; }
             #hero #hero-content #hero-content-top #hero-content-top-ul ul li:last-child {
               border-bottom: none; }
 

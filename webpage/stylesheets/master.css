@@ -132,9 +132,9 @@ header {
   justify-content: center;
   align-items: flex-start; }
   #hero #hero-content {
-    width: 860px;
-    height: 25px;
-    background-color: #CCC; }
+    width: 860px; }
+    #hero #hero-content #hero-content-top {
+      width: 100%; }
 
 body {
   height: 100vh;

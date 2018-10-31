@@ -127,7 +127,10 @@ header {
             top: 2px; }
 
 #hero {
-  width: 100vw; }
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
   #hero #hero-content {
     width: 860px;
     height: 25px;

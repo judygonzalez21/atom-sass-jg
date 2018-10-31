@@ -1,0 +1,6 @@
+// *** Mixins ***
+@mixin basic-flex ($jc: center, $ai: flex-start){
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}

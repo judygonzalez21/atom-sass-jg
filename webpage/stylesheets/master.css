@@ -130,14 +130,16 @@ header {
   width: 100vw;
   display: flex;
   justify-content: center;
-  align-items: flex-start; }
+  align-items: flex-start;
+  flex-direction: row; }
   #hero #hero-content {
     width: 860px; }
     #hero #hero-content #hero-content-top {
       width: 100%;
       display: flex;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      flex-direction: row; }
       #hero #hero-content #hero-content-top #hero-content-top-ani {
         width: 582px;
         height: 500px;
@@ -179,7 +181,8 @@ header {
                 border-radius: 5px;
                 display: flex;
                 justify-content: center;
-                align-items: center; }
+                align-items: center;
+                flex-direction: row; }
                 #hero #hero-content #hero-content-top #hero-content-top-ul ul li a div img {
                   height: 16px;
                   width: 14px;
@@ -195,10 +198,10 @@ header {
               border-bottom: none; }
     #hero #hero-content #hero-content-bottom {
       width: 100%;
-      flex-direction: column;
       display: flex;
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      flex-direction: column; }
       #hero #hero-content #hero-content-bottom p {
         color: #766e63aa;
         font-size: .8em; }
@@ -211,6 +214,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: row;
         margin-top: 25.6px; }
         #hero #hero-content #hero-content-bottom ul li {
           color: #8d8273;
@@ -219,6 +223,41 @@ header {
             margin-right: 32px; }
           #hero #hero-content #hero-content-bottom ul li:hover {
             color: #ebab00; }
+
+#sub-hero {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 80px; }
+  #sub-hero #sub-hero-content {
+    width: 860px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    #sub-hero #sub-hero-content h1 {
+      font-size: 2.3em;
+      font-weight: 300;
+      letter-spacing: .025em;
+      color: #efdab9; }
+      #sub-hero #sub-hero-content h1 span {
+        color: #78b0a0; }
+    #sub-hero #sub-hero-content ul {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+      #sub-hero #sub-hero-content ul li {
+        border: 1px solid #4e4b4d;
+        margin: 40px 10px 0px 10px;
+        padding: 9px 14px;
+        border-radius: 5px;
+        color: #e1bb50; }
+        #sub-hero #sub-hero-content ul li:hover {
+          color: #ebab00; }
 
 body {
   height: 100vh;

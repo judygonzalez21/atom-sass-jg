@@ -1,11 +1,4 @@
 
-
-
-// local VARIABLES
-
-$border-style: 1px solid #4e4b4d;
-$hover-color: #ebab00;
-
 // *** HERO PARTIAL ***
 
 #hero {
@@ -39,8 +32,7 @@ $hover-color: #ebab00;
             height: 25%;
             width: 100%;
             border-bottom: $border-style;
-            @include basic-flex(center, center);
-            flex-direction: column;
+            @include basic-flex(center, center, column);
 
             h1{
               font-size: 1.4em;
@@ -105,8 +97,7 @@ $hover-color: #ebab00;
 
     #hero-content-bottom{
       width: 100%;
-      flex-direction: column;
-      @include basic-flex (center, center);
+      @include basic-flex (center, center, column);
 
       p{
         color: #766e63aa;

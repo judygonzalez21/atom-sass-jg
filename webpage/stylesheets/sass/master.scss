@@ -22,3 +22,11 @@ body{
 
   background-color: $body-color;
 }
+
+a{
+  text-decoration: none;
+  color: inherit;
+  &:hover{
+    text-decoration: none;
+  }
+}

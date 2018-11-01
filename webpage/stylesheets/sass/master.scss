@@ -5,6 +5,7 @@
 @import "helpers/typography";
 
 @import "components/vars";
+@import "components/mixins";
 @import "components/placeholders";
 @import "components/header";
 @import "components/hero";
@@ -19,5 +20,13 @@ body{
   font-size: 100%;
   color: #EFEAE1;
 
-  background-color: #333233;
+  background-color: $body-color;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  &:hover{
+    text-decoration: none;
+  }
 }

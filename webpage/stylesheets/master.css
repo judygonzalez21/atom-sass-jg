@@ -193,6 +193,32 @@ header {
                   background-color: #ebab00; }
             #hero #hero-content #hero-content-top #hero-content-top-ul ul li:last-child {
               border-bottom: none; }
+    #hero #hero-content #hero-content-bottom {
+      width: 100%;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #hero #hero-content #hero-content-bottom p {
+        color: #766e63aa;
+        font-size: .8em; }
+        #hero #hero-content #hero-content-bottom p a {
+          color: #766e63; }
+          #hero #hero-content #hero-content-bottom p a:hover {
+            color: #ebab00; }
+      #hero #hero-content #hero-content-bottom ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25.6px; }
+        #hero #hero-content #hero-content-bottom ul li {
+          color: #8d8273;
+          font-size: .9em; }
+          #hero #hero-content #hero-content-bottom ul li:first-child {
+            margin-right: 32px; }
+          #hero #hero-content #hero-content-bottom ul li:hover {
+            color: #ebab00; }
 
 body {
   height: 100vh;

@@ -259,6 +259,19 @@ header {
         #sub-hero #sub-hero-content ul li:hover {
           color: #ebab00; }
 
+footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+  footer #footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+
 body {
   height: 100vh;
   width: 100vw;

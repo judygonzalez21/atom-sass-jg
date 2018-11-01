@@ -144,6 +144,19 @@
 		"oAP": "\/webpage\/stylesheets\/media\/vids\/.temp",
 		"oF": 0
 		},
+	"\/webpage\/stylesheets\/sass\/components\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/webpage\/stylesheets\/sass\/components\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/webpage\/stylesheets\/sass\/components\/_header.scss": {
 		"aP": 0,
 		"bl": 0,

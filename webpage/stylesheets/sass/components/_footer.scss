@@ -1,0 +1,19 @@
+//*** Footer ***
+
+footer{
+  width: 100vw;
+  @include basic-flex(center, center);
+
+  #footer-content{
+    width: 100%;
+    @include basic-flex(center, center)
+
+    #footer-content-left{
+
+    }
+
+    #footer-content-right{
+
+    } //footer-content-right
+  } //footer-content
+} //Footer

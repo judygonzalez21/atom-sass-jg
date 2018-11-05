@@ -32,3 +32,15 @@ a{
     text-decoration: none;
   }
 }
+
+h2{
+  font-size: 2em;
+  font-weight: 200;
+  letter-spacing: .05em;
+  color: $atom-tan;
+}
+
+p{
+  color: $atom-tan;
+  line-height: 1.45;
+}

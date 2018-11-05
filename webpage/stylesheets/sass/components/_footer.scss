@@ -10,15 +10,35 @@ footer{
   background-position: calc(50% + 380px) 60px;
 
   #footer-content{
-    width: 100%;
+    width: $content-width;
     @include basic-flex(center, center)
 
 
     #footer-content-left{
+      width: 50%;
+      height: 295px;
+      padding-right: 75px;
+      box-sizing: border-box;
+      @include basic-flex(space-between, flex-start, column)
+      div{
+        width: fit-content;
+        background-color: $button-color;
+        padding: 8px 16px;
+        border-radius: $button-border-radius;
+        color: $body-color;
+        font-weight: 500;
 
-    }
+        &:hover{
+          background-color: $hover-color;
+        }
+      } //div
+
+
+    } //footer-content-left
 
     #footer-content-right{
+      width: 50%;
+      height: 295px;
 
     } //footer-content-right
   } //footer-content

@@ -270,11 +270,32 @@ footer {
   background: url("media/imgs/rocket.svg") no-repeat, #2c2a2b;
   background-position: calc(50% + 380px) 60px; }
   footer #footer-content {
-    width: 100%;
+    width: 860px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row; }
+    footer #footer-content #footer-content-left {
+      width: 50%;
+      height: 295px;
+      padding-right: 75px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column; }
+      footer #footer-content #footer-content-left div {
+        width: fit-content;
+        background-color: #fed153;
+        padding: 8px 16px;
+        border-radius: 5px;
+        color: #333233;
+        font-weight: 500; }
+        footer #footer-content #footer-content-left div:hover {
+          background-color: #ebab00; }
+    footer #footer-content #footer-content-right {
+      width: 50%;
+      height: 295px; }
 
 body {
   height: 100vh;
@@ -289,3 +310,13 @@ a {
   color: inherit; }
   a:hover {
     text-decoration: none; }
+
+h2 {
+  font-size: 2em;
+  font-weight: 200;
+  letter-spacing: .05em;
+  color: #EFDAB9; }
+
+p {
+  color: #EFDAB9;
+  line-height: 1.45; }

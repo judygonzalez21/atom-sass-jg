@@ -259,6 +259,64 @@ header {
         #sub-hero #sub-hero-content ul li:hover {
           color: #ebab00; }
 
+footer {
+  width: 100vw;
+  padding: 205px 0px;
+  border-top: 1px solid #1a191a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: url("media/imgs/rocket.svg") no-repeat, #2c2a2b;
+  background-position: calc(50% + 380px) 60px; }
+  footer #footer-content {
+    width: 860px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; }
+    footer #footer-content #footer-content-left {
+      width: 50%;
+      height: 295px;
+      padding-right: 75px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-direction: column; }
+      footer #footer-content #footer-content-left div {
+        width: fit-content;
+        background-color: #fed153;
+        padding: 8px 16px;
+        border-radius: 5px;
+        color: #333233;
+        font-weight: 500; }
+        footer #footer-content #footer-content-left div:hover {
+          background-color: #ebab00; }
+    footer #footer-content #footer-content-right {
+      width: 50%;
+      height: 295px;
+      padding-left: 75px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-direction: column; }
+      footer #footer-content #footer-content-right #footer-content-right-uls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; }
+        footer #footer-content #footer-content-right #footer-content-right-uls ul {
+          color: #EFDAB9;
+          line-height: 1.7; }
+          footer #footer-content #footer-content-right #footer-content-right-uls ul li {
+            padding-right: 26px; }
+            footer #footer-content #footer-content-right #footer-content-right-uls ul li a {
+              color: #fed153; }
+              footer #footer-content #footer-content-right #footer-content-right-uls ul li a:hover {
+                color: #ebab00; }
+
 body {
   height: 100vh;
   width: 100vw;
@@ -272,3 +330,13 @@ a {
   color: inherit; }
   a:hover {
     text-decoration: none; }
+
+h2 {
+  font-size: 2em;
+  font-weight: 200;
+  letter-spacing: .05em;
+  color: #EFDAB9; }
+
+p {
+  color: #EFDAB9;
+  line-height: 1.45; }

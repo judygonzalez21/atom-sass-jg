@@ -281,7 +281,7 @@ footer {
       padding-right: 75px;
       box-sizing: border-box;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: flex-start;
       flex-direction: column; }
       footer #footer-content #footer-content-left div {
@@ -295,7 +295,27 @@ footer {
           background-color: #ebab00; }
     footer #footer-content #footer-content-right {
       width: 50%;
-      height: 295px; }
+      height: 295px;
+      padding-left: 75px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-direction: column; }
+      footer #footer-content #footer-content-right #footer-content-right-uls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row; }
+        footer #footer-content #footer-content-right #footer-content-right-uls ul {
+          color: #EFDAB9;
+          line-height: 1.7; }
+          footer #footer-content #footer-content-right #footer-content-right-uls ul li {
+            padding-right: 26px; }
+            footer #footer-content #footer-content-right #footer-content-right-uls ul li a {
+              color: #fed153; }
+              footer #footer-content #footer-content-right #footer-content-right-uls ul li a:hover {
+                color: #ebab00; }
 
 body {
   height: 100vh;

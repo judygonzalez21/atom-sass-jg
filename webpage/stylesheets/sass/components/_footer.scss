@@ -19,7 +19,7 @@ footer{
       height: 295px;
       padding-right: 75px;
       box-sizing: border-box;
-      @include basic-flex(space-between, flex-start, column)
+      @include basic-flex(space-around, flex-start, column)
       div{
         width: fit-content;
         background-color: $button-color;
@@ -32,14 +32,34 @@ footer{
           background-color: $hover-color;
         }
       } //div
-
-
     } //footer-content-left
 
     #footer-content-right{
       width: 50%;
       height: 295px;
+      padding-left: 75px;
+      box-sizing: border-box;
+      @include basic-flex(space-around, flex-start, column)
 
+      #footer-content-right-uls{
+        @include basic-flex(center, center)
+
+        ul{
+          color: $atom-tan;
+          line-height: 1.7;
+
+          li{
+            padding-right: 26px;
+
+            a{
+              color: $button-color;
+              &:hover{
+                color: $hover-color;
+              } //hover
+            } //a
+          } //li
+        } //ul
+      } //footer-content-right-uls
     } //footer-content-right
   } //footer-content
 } //Footer

@@ -117,6 +117,50 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/webpage/stylesheets/media/imgs/cust1.png": {
+		"ft": 32768,
+		"iS": 5638,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/cust1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/cust2.png": {
+		"ft": 32768,
+		"iS": 6136,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/cust2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/cust3.png": {
+		"ft": 32768,
+		"iS": 6440,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/cust3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/cust4.png": {
+		"ft": 32768,
+		"iS": 5180,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/cust4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/webpage/stylesheets/media/imgs/download-icon.svg": {
 		"ft": 2097152,
 		"miP": 0,

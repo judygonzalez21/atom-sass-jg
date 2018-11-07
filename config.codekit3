@@ -171,6 +171,39 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/webpage/stylesheets/media/imgs/feature-1.png": {
+		"ft": 32768,
+		"iS": 102630,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/feature-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/feature-2.png": {
+		"ft": 32768,
+		"iS": 192198,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/feature-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/feature-3.png": {
+		"ft": 32768,
+		"iS": 109922,
+		"oA": 0,
+		"oAP": "/webpage/stylesheets/media/imgs/feature-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/webpage/stylesheets/media/imgs/index-atom-text.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -256,6 +289,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/webpage/stylesheets/media/imgs/teletype-bckr.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/webpage/stylesheets/media/imgs/teletype-bckr.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/webpage/stylesheets/media/imgs/with-love-logo.svg": {
 		"ft": 2097152,

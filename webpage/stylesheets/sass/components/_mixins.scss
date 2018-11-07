@@ -5,3 +5,12 @@
   align-items: $ai;
   flex-direction: $fd;
 }
+
+@mixin grid-item($img-file){
+  width: 100%;
+  height: auto;
+  padding-left: 60px;
+  background: url('media/imgs/#{$img-file}') no-repeat;
+  background-size: 8%;
+  background-position: left top;
+}

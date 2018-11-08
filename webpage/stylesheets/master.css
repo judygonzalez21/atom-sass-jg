@@ -357,7 +357,7 @@ header {
       #feature-2 #feature-2-img img:hover {
         filter: none; }
   #feature-2 #feature-2-info {
-    padding-left: 300px; }
+    padding-left: 250px; }
 
 #feature-3 {
   background: url("media/imgs/feature-3-bckr.svg") no-repeat;
@@ -586,6 +586,7 @@ footer {
 body {
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
   font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
   font-size: 100%;
   color: #EFEAE1;

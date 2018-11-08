@@ -4,3 +4,25 @@
   cursor: pointer;
   user-select: none;
 }
+
+%button{
+  width: fit-content;
+  background-color: $button-color;
+  padding: 8px 16px;
+  border-radius: $button-border-radius;
+  color: $body-color;
+  font-weight: 500;
+
+  &:hover{
+    background-color: $hover-color;
+  }
+}
+
+%text-link{
+  a{
+    color: $button-color;
+    &:hover{
+      color: $hover-color;
+    }
+  }
+}

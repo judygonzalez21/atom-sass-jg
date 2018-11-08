@@ -81,6 +81,21 @@ header #header-content #header-content-left ul li, header #header-content #heade
   cursor: pointer;
   user-select: none; }
 
+.feature-info div, footer #footer-content #footer-content-left div {
+  width: fit-content;
+  background-color: #fed153;
+  padding: 8px 16px;
+  border-radius: 5px;
+  color: #333233;
+  font-weight: 500; }
+  .feature-info div:hover, footer #footer-content #footer-content-left div:hover {
+    background-color: #ebab00; }
+
+.feature-info a, #sub-features a {
+  color: #fed153; }
+  .feature-info a:hover, #sub-features a:hover {
+    color: #ebab00; }
+
 header {
   width: 100vw;
   height: 33px;
@@ -259,6 +274,76 @@ header {
         #sub-hero #sub-hero-content ul li:hover {
           color: #ebab00; }
 
+#feature-1 {
+  background: url("media/imgs/teletype-bckr.svg") no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 950px); }
+  #feature-1 #feature-1-img {
+    width: 50%; }
+    #feature-1 #feature-1-img img {
+      filter: brightness(0.75) contrast(1) sepia(0.7) hue-rotate(-5deg) saturate(3.5); }
+      #feature-1 #feature-1-img img:hover {
+        filter: none; }
+  #feature-1 #feature-1-info {
+    padding-left: 35px; }
+
+#feature-2 {
+  background: url("media/imgs/atom-ide-bckr.svg") no-repeat;
+  background-size: auto 70%;
+  background-position: calc(50% - 600px) center; }
+  #feature-2 #feature-2-img {
+    width: 50%; }
+    #feature-2 #feature-2-img img {
+      left: 45px;
+      filter: brightness(0.7) contrast(0.8) sepia(1) hue-rotate(160deg) saturate(3); }
+      #feature-2 #feature-2-img img:hover {
+        filter: none; }
+  #feature-2 #feature-2-info {
+    padding-left: 300px; }
+
+#feature-3 {
+  background: url("media/imgs/feature-3-bckr.svg") no-repeat;
+  background-size: contain;
+  background-position: calc(50% + 550px); }
+  #feature-3 #feature-3-img {
+    width: 50%; }
+    #feature-3 #feature-3-img img {
+      filter: brightness(0.7) contrast(1) sepia(1) hue-rotate(115deg) saturate(1.5); }
+      #feature-3 #feature-3-img img:hover {
+        filter: none; }
+  #feature-3 #feature-3-info {
+    padding-left: 35px; }
+
+.feature-container {
+  width: 100vw;
+  padding: 100px 0px;
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
+
+.feature-img {
+  width: 780px;
+  height: 488px;
+  position: relative;
+  top: 0px;
+  left: -180px;
+  border-radius: 5px;
+  box-shadow: 0 20px 30px black;
+  transition-property: filter;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 0s; }
+
+.feature-info {
+  height: 350px;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column; }
+
 #sub-features {
   width: 100vw;
   padding: 210px 0px;
@@ -266,10 +351,6 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: row; }
-  #sub-features a {
-    color: #fed153; }
-    #sub-features a:hover {
-      color: #ebab00; }
   #sub-features #sub-features-content {
     width: 860px;
     display: flex;
@@ -394,15 +475,6 @@ footer {
       justify-content: space-around;
       align-items: flex-start;
       flex-direction: column; }
-      footer #footer-content #footer-content-left div {
-        width: fit-content;
-        background-color: #fed153;
-        padding: 8px 16px;
-        border-radius: 5px;
-        color: #333233;
-        font-weight: 500; }
-        footer #footer-content #footer-content-left div:hover {
-          background-color: #ebab00; }
     footer #footer-content #footer-content-right {
       width: 50%;
       height: 295px;

@@ -11,13 +11,10 @@
       width: 100%;
       @include basic-flex(space-between, center);
 
+      //Inline SASS Partial
+      @import 'hero-ani';
 
-      #hero-content-top-ani{
-        width: 582px;
-        height: 500px;
-        background-color: darken($body-color, 3%);
-      } //hero-content-top-ani
-
+      
       #hero-content-top-ul{
         width: 228px;
         margin-left: 50px;

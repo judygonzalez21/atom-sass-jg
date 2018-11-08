@@ -1,0 +1,40 @@
+
+
+// Sub HERO
+
+#sub-hero{
+  width: 100vw;
+  @include basic-flex (center, center);
+  margin-top: 80px;
+
+  #sub-hero-content{
+    width: $content-width;
+    @include basic-flex (center, center, column);
+
+    h1{
+      font-size: 2.3em;
+      font-weight: 300;
+      letter-spacing: .025em;
+      color: #efdab9;
+
+      span{
+        color: #78b0a0;
+      }
+    } // h1
+    ul{
+      width: 100%;
+      @include basic-flex (center, center);
+      li{
+        border: $border-style;
+        margin: 40px 10px 0px 10px;
+        padding: 9px 14px;
+        border-radius: 5px;
+        color: #e1bb50;
+        &:hover{
+          color: $hover-color;
+        }
+
+      } //li
+    } //ul
+  } //sub-hero-content
+} //sub-hero

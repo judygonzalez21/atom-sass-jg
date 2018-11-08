@@ -83,6 +83,13 @@
 		"oAP": "\/template.yml",
 		"oF": 0
 		},
+	"\/webpage\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/webpage\/favicon.ico",
+		"oF": 0
+		},
 	"\/webpage\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -100,12 +107,55 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/webpage\/stylesheets\/media\/imgs\/.temp": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/webpage\/stylesheets\/media\/imgs\/.temp",
-		"oF": 0
+	"\/webpage\/stylesheets\/media\/imgs\/atom-door-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/webpage\/stylesheets\/media\/imgs\/atom-door-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/webpage\/stylesheets\/media\/imgs\/download-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/webpage\/stylesheets\/media\/imgs\/download-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/webpage\/stylesheets\/media\/imgs\/index-atom-text.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/webpage\/stylesheets\/media\/imgs\/index-atom-text.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/webpage\/stylesheets\/media\/imgs\/rocket.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/webpage\/stylesheets\/media\/imgs\/rocket.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/webpage\/stylesheets\/media\/imgs\/with-love-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/webpage\/stylesheets\/media\/imgs\/with-love-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/webpage\/stylesheets\/media\/vids\/.temp": {
 		"cB": 0,
@@ -114,12 +164,109 @@
 		"oAP": "\/webpage\/stylesheets\/media\/vids\/.temp",
 		"oF": 0
 		},
-	"\/webpage\/stylesheets\/sass\/components\/.temp": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/webpage\/stylesheets\/sass\/components\/.temp",
-		"oF": 0
+	"\/webpage\/stylesheets\/sass\/components\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/webpage\/stylesheets\/sass\/components\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/webpage\/stylesheets\/sass\/components\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/webpage\/stylesheets\/sass\/components\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/webpage\/stylesheets\/sass\/components\/_hero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/webpage\/stylesheets\/sass\/components\/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/webpage\/stylesheets\/sass\/components\/_mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/webpage\/stylesheets\/sass\/components\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/webpage\/stylesheets\/sass\/components\/_placeholders.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/webpage\/stylesheets\/sass\/components\/_placeholders.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/webpage\/stylesheets\/sass\/components\/_sub-footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/webpage\/stylesheets\/sass\/components\/_sub-footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/webpage\/stylesheets\/sass\/components\/_sub-hero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/webpage\/stylesheets\/sass\/components\/_sub-hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/webpage\/stylesheets\/sass\/components\/_vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/webpage\/stylesheets\/sass\/components\/_vars.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/webpage\/stylesheets\/sass\/helpers\/_reset.scss": {
 		"aP": 0,

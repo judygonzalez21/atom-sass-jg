@@ -1,7 +1,47 @@
-// ***Master SASS File***
+// *** MASTER SASS FILE ***
 
 // --- PARTIALS ---
 @import "helpers/reset";
 @import "helpers/typography";
 
+@import "components/vars";
+@import "components/mixins";
+@import "components/placeholders";
+@import "components/header";
+@import "components/hero";
+@import "components/sub-hero";
+@import "components/footer";
+@import "components/sub-footer";
+
 // --- MASTER CONTROLS ---
+
+body{
+  height: 100vh;
+  width:  100vw;
+
+  font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 100%;
+  color: #EFEAE1;
+
+  background-color: $body-color;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+h2{
+  font-size: 2em;
+  font-weight: 200;
+  letter-spacing: .05em;
+  color: $atom-tan;
+}
+
+p{
+  color: $atom-tan;
+  line-height: 1.45;
+}
